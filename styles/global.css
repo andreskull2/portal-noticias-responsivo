@@ -1,3 +1,4 @@
+/* Reset e configuração básica */
 *,
 *::before,
 *::after {
@@ -8,12 +9,12 @@
     margin: 0;
     padding: 0;
     font: inherit;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
+    /* Variáveis Globais */
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
     --bg-color: #0F172A;
@@ -21,7 +22,7 @@
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
 
-    --ff-sans: 'Archivo', sistem-ui, sans-serif;
+    --ff-sans: 'Archivo', system-ui, sans-serif;
 
     --fw-base: 400;
     --fw-sb: 600;
@@ -36,14 +37,6 @@
     --fs-sm: 0.875rem; /* 14px */
     --fs-md: 1rem; /* 16px */
     --fs-lg: 1.5rem; /* 24px */
-
-    --py-base: 1rem;
-    --py-sm: 0.875rem; /* 14px */
-    --py-md: 1.5rem; /* 24px */
-    --py-lg: 2rem; /* 32px */
-
-
-    --px-base: 1rem;
 }
 
 html {
@@ -53,14 +46,12 @@ html {
     line-height: var(--lh-lg);
     color: var(--text-color-primary);
 
-    overflow-x: hidden;
-
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--bg-color);
-    overflow-x: hidden;
 }
 
 h1 {
@@ -81,14 +72,49 @@ h3 {
 a {
     text-decoration: none;
     color: inherit;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     color: var(--brand-color-light);
 }
 
-@media (min-width: 80em) {
-    :root {
-        --px-base: 2rem;
+/* Estilos do Container */
+.container {
+    max-width: 360px;
+    padding-inline: var(--px-base);
+    margin-inline: auto;
+    border: 1px solid magenta;
+}
+
+/* Media Queries */
+@media (min-width: 26.56em) {
+    .container {
+        max-width: 26.56rem;
     }
 }
+
+@media (min-width: 37.5em) {
+    .container {
+        max-width: 37.5rem;
+    }
+}
+
+@media (min-width: 48em) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media (min-width: 64em) {
+   .container {
+        max-width: 64rem;
+    }
+}
+
+@media (min-width: 80em) {
+    .container {
+        max-width: 80rem;
+    }
+}
+
