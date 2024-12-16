@@ -1,3 +1,9 @@
+.py-base {
+    padding-block: var(--py-base);
+}
+
+
+
 /* utility first */
 .grid {
     display: grid;
@@ -22,7 +28,9 @@
     border: 1px solid magenta;
 }
 
-
+.desktop-only {
+    display: none;
+}
 
 /* Mobile Large - 425px */
 @media (width >= 26.56em) {
@@ -43,12 +51,20 @@
     .container {
         --max-width: 64rem;
     }
+
+    .desktop-only {
+        display: initial;
+    }
 }
 
 /* Desktop 1280px  */
 @media (width >= 80em) {
     .container {
         --max-width: 80rem;
+    }
+
+    .desktop-only {
+        display: initial;
     }
 }
 
