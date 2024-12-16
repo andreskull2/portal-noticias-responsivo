@@ -82,7 +82,7 @@ a:hover {
 /* Estilos do Container */
 .container {
     max-width: 360px;
-    padding-inline: var(--px-base);
+    padding-inline: 32px;
     margin-inline: auto;
     border: 1px solid magenta;
 }
