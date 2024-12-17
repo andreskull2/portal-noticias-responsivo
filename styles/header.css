@@ -5,11 +5,16 @@
 #primary div {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: 0.5rem;
 }
 
 #primary div:nth-child(2) {
     margin-inline: auto;
+    background-image: url(../assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
 }
 
 #primary div:nth-child(3) {
@@ -21,4 +26,26 @@
     border: 1px solid var(--stroke-color);
     border-inline: none;
     justify-content: space-between;
+}
+
+@media (max-width: 48em) {
+    #primary {
+        border-bottom: 1px solid var(--stroke-color);
+    }
+
+    #primary div:first-child strong {
+        display: none;
+    }
+
+    #primary div:nth-child(2) {
+        background-image: url(../assets/logo-mobile.svg);
+    }
+
+    #primary div:last-child strong {
+        display: none;
+    }
+
+    #secondary {
+        display: none;
+    }
 }
