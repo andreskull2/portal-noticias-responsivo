@@ -17,6 +17,14 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.gap-16 {
+    gap: 1rem;
+}
+
+.gap-32 {
+    gap: 2rem;
+}
+
 /* Class Container */
 .container {
     /* Variável Max Width - Mobile */
@@ -31,6 +39,12 @@
 .desktop-only {
     display: none;
 }
+
+.mobile-only {
+    display: initial;
+}
+
+
 
 /* Mobile Large - 425px */
 @media (width >= 26.56em) {
@@ -65,6 +79,18 @@
 
     .desktop-only {
         display: initial;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .grid-flow-col {
+        grid-auto-flow: column;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: 1fr 1fr;
     }
 }
 

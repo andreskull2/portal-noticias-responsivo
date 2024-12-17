@@ -1,20 +1,24 @@
 #primary {
-     padding-block: var(--py-base);
+    padding-block: var(--py-base);
+}
 
-    div {
-        display: flex;
-        
-        align-items: center;
-        gap: 8px;
-    }
+#primary div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
-    div:nth-child(2) {
-        margin-inline: auto;
-    }
+#primary div:nth-child(1) {
+    width: 20px;
+}
 
-    div:nth-child(3) {
-        justify-self: end;
-    }
+#primary div:nth-child(2) {
+    margin-inline: auto;
+    width: 6.25rem;
+}
+
+#primary div:nth-child(3) {
+    justify-self: end;
 }
 
 #secondary {
@@ -22,4 +26,6 @@
     border: solid 1px var(--stroke-color);
     border-inline: none;
     justify-content: space-between;
+    font: var(--fw-sb) var(--fs-sm)/var(--lh-md) var(--ff-sans);
 }
+
