@@ -66,5 +66,17 @@ a:hover {
     color: var(--brand-color-light);
 }
 
+.container {
+    max-width: 1280px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+    border: 1px solid magenta;
+}
 
+.grid {
+    display: grid;
+}
 
+.grid-flow-col {
+    grid-auto-flow: column;
+}
