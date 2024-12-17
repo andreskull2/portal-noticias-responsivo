@@ -50,6 +50,13 @@ span {
     font-weight: 600;
 }
 
+.text-sm2 {
+    font-size: 0.875rem;
+    line-height: 160%;
+    font-weight: 400;
+    color: var(--text-color-secondary);
+}
+
 .text-xl {
     font-size: .875rem; /* 14px */
     line-height: 140%;
@@ -80,12 +87,20 @@ a:hover {
     max-width: 1280px;
     padding-inline: 2rem;
     margin-inline: auto;
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
 }
 
 main {
-    margin-top: 2.5rem;
-    gap: 5rem;
+    margin-block: 2.5rem 5rem;
+    row-gap: 5rem;
+    column-gap: 2rem;
+
+    grid-template-columns: 2fr 1.25fr;
+
+    grid-template-areas: 
+    "highlights highlights"
+    "weekly weekly"
+    "highlights-ai aside";
 }
 
 .content-tag {

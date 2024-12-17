@@ -1,3 +1,4 @@
+/* ---- Seção Destaques de Inteligência Artificial ---- */
 section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 0.75rem 1.5rem;
@@ -19,11 +20,14 @@ section header a:hover span {
     background-image: url(../assets/icons/arrow-right-hover.svg);
 }
 
+/* ---- Seção Highlights ---- */
+#highlights {
+    grid-area: highlights;
+}
 
 #highlights img {
     height: 100%;
     object-fit: cover;
-    border-radius: 0.25rem;
 }
 
 #highlights .card {
@@ -56,6 +60,11 @@ section header a:hover span {
     padding: 0.75rem;
 }
 
+/* Seção Weekly */
+#weekly {
+    grid-area: weekly;
+}
+
 #weekly > div {
     grid-template-columns: repeat(4, 292px);
 }
@@ -77,4 +86,39 @@ section header a:hover span {
 #weekly figure p {
     margin-top: 0.5rem;
     font-weight: 800;
+}
+
+/* Seção Highlights-ai */
+#highlights-ai {
+    grid-area: highlights-ai;
+}
+
+#highlights-ai img {
+    width: 176px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+#highlights-ai h3 {
+    margin-block: 0.5rem;
+}
+
+/* Seção Aside */
+aside {
+    grid-area: aside;
+}
+
+/* Seção Mais */
+#more {
+    margin-top: 2rem;
+}
+
+#more img {
+    width: 72px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+#more h3 {
+    margin-block: 0.5rem;
 }
