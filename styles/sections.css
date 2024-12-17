@@ -1,3 +1,25 @@
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 0.75rem 1.5rem;
+}
+
+section header a {
+    justify-self: end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section header a span {
+    background-image: url(../assets/icons/arrow-right.svg);
+    width: 16px;
+    height: 16px;
+}
+
+section header a:hover span {
+    background-image: url(../assets/icons/arrow-right-hover.svg);
+}
+
+
 #highlights img {
     height: 100%;
     object-fit: cover;
@@ -30,6 +52,29 @@
 }
 
 /* Substituir ":has()" por classes adicionais se necessário */
-#highlights .card figcaption.has-heading3 {
+#highlights .card figcaption.has-text-xl {
     padding: 0.75rem;
+}
+
+#weekly > div {
+    grid-template-columns: repeat(4, 292px);
+}
+
+#weekly img {
+    height: 160px;
+}
+
+#weekly figure {
+    position: relative;
+}
+
+#weekly figure .content-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#weekly figure p {
+    margin-top: 0.5rem;
+    font-weight: 800;
 }

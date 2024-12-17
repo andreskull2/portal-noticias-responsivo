@@ -38,22 +38,22 @@ body {
     font-weight: 800;
 }
 
-.heading3 {
-    font-size: .875rem; /* 14px */
-    line-height: 140%;
-    font-weight: 800;
-}
-
 span {
     font-size: 0.875rem;
     line-height: 145%;
     font-weight: 600;
 }
 
-.paragraph {
+.text-sm {
     font-size: .875rem;
-    line-height: 160%;
-    font-weight: 400;
+    line-height: 145%;
+    font-weight: 600;
+}
+
+.text-xl {
+    font-size: .875rem; /* 14px */
+    line-height: 140%;
+    font-weight: 800;
 }
 
 img {
@@ -85,6 +85,7 @@ a:hover {
 
 main {
     margin-top: 2.5rem;
+    gap: 5rem;
 }
 
 .content-tag {
