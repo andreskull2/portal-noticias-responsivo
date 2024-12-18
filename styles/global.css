@@ -117,6 +117,10 @@ main {
 }
 
 @media (max-width: 48em) {
+    .heading1 {
+        font-size: 1rem;
+    }
+
     .container {
         padding-inline: 1rem;
     }
