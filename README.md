@@ -24,11 +24,11 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 This project involved designing and implementing a responsive layout for a tech news page, ensuring compatibility with mobile and desktop devices. The focus was on maintaining a visually appealing and functional user interface that adapts seamlessly to different screen sizes, prioritizing usability and accessibility.
-- [Access the finished project](https://www.figma.com/community/file/1392188698846698895)
+- [Access the finished project](https://andreskull2.github.io/portal-noticias-responsivo/)
 - [Watch the classes](https://www.rocketseat.com.br/formacao/fullstack)
 
 ## 🔖 Layout
-You can view the project layout through [LINK](https://www.figma.com/community/file/1392188119249243534). You must have an account on [Figma](https://figma.com) to access it.
+You can view the project layout through [LINK](https://www.figma.com/community/file/1392188698846698895). You must have an account on [Figma](https://figma.com) to access it.
 
 ## :memo: License
 This project is under the MIT license.
