@@ -1,0 +1,43 @@
+/* --- Seção Weekly - Mais lidas da semana -- */
+#weekly {
+    grid-area: weekly;
+}
+
+#weekly > div {
+    grid-template-columns: repeat(4, 292px);
+}
+
+#weekly img {
+    height: 160px;
+}
+
+#weekly figure {
+    position: relative;
+}
+
+#weekly figure .content-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#weekly figure p {
+    margin-top: 0.5rem;
+    font-weight: 800;
+}
+
+@media (max-width: 48em) {
+    #weekly {
+        margin-top: 2rem;
+    }
+
+    #weekly > div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #weekly > div img {
+            height: auto;
+    }
+}
+

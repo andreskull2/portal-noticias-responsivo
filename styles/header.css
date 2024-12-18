@@ -1,3 +1,26 @@
+/* ---- Seção Destaques de Inteligência Artificial ---- */
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 0.75rem 1.5rem;
+}
+
+section header a {
+    justify-self: end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section header a span {
+    background-image: url(../assets/icons/arrow-right.svg);
+    width: 16px;
+    height: 16px;
+}
+
+section header a:hover span {
+    background-image: url(../assets/icons/arrow-right-hover.svg);
+}
+
+/* --- Seção Header - Navegação --- */
 #primary {
     padding-block: 1.25rem;
 }
