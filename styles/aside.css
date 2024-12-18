@@ -1,0 +1,10 @@
+/* Seção Aside */
+aside {
+    grid-area: aside;
+}
+
+@media (max-width: 48em) {
+    aside {
+        margin-top: 2rem;
+    }
+}

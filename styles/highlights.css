@@ -44,6 +44,9 @@
         grid-template-columns: 1fr;
     }
 
+    #highlights img {
+        width: 100%;
+    }
     #highlights > div {
         grid-template-columns: 1fr;
     }
