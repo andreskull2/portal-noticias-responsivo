@@ -13,7 +13,7 @@ This is the practical challenge of the Fullstack Training from Rocketseat. The g
 </p>
 <br>
 <p align="center">
-  <img alt="Pratical challenge" src="github/thumbnail.png" width="100%">
+  <img alt="Pratical challenge" src="github/thumbnail.jpg" width="100%">
 </p>
 
 ## 🚀 Technologies
